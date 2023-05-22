@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <title>Contact Me - Arif Widiarto</title>
+    <link href="./assets/css/style.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <ul>
+                <img src="./assets/img/logo.png" alt="logo" />
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="https://arifwidiarto.netlify.app">My Project</a>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <a href="contact-me.html">Contact Me</a>
+        </div>
+    </nav>
+
+    <h1>GET IN TOUCH</h1>
+
+    <form>
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="text" id="email">
+        </div>
+        <div>
+            <label for="number">Phone Number</label>
+            <input type="text" id="number">
+        </div>
+        <div>
+            <label for="subject">Subject</label>
+            <select id="subject">
+                <option>Let's Talk</option>
+                <option>Let's Collaboration</option>
+                <option>I'm Hiring</option>
+            </select>
+        </div>
+        <div>
+            <label for="message">Your Message</label>
+            <textarea id="message" type="text"></textarea>
+        </div>
+        <div>
+            <button type="button" onclick="getData()">Submit</button>
+        </div>
+    </form>
+</body>
+
+<script src="./assets/js/script.js"></script>
+
+</html>
